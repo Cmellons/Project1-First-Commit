@@ -10,26 +10,51 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
-    <a class="btn btn-primary" href="./index.html" role="button">Home</a>
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Broken Arrow</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Features.html">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Form.html" >Contact us!</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/BrokenArrow01/reviews">Reviews</a>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
     <form>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label for="email-address" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp" required>
           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <label for="your-password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="your-password" required>
         </div>
         <div class="mb-3 form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          <label class="form-check-label" for="exampleCheck1">Agree to our Terms and conditions</label>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
+      
       <div class="image-container">
       <img src="./images/Logo2.jpg" alt="logo">
       <div class="overlay-text">If you'd prefer to not use email and would rather visit us in person, you can find us at: 
