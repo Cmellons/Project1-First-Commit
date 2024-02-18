@@ -24,7 +24,7 @@
                 <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./Features.html">Features</a>
+                <a class="nav-link" href="./Aboutus.html">About us!</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./Form.html" >Contact us!</a>
@@ -38,18 +38,20 @@
         </div>
       </nav>
 
-    <form>
+    <form action="https://formspree.io/f/xrgnqrav"
+          method="POST"
+          >
         <div class="mb-3">
-          <label for="email-address" class="form-label">Email address</label>
+          <label for="email-address" name="email-address" class="form-label">Email Address</label>
           <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp" required>
           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="mb-3">
-          <label for="your-password" class="form-label">Password</label>
+          <label for="your-password" name="your-password" class="form-label">Password</label>
           <input type="password" class="form-control" id="your-password" required>
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <input type="checkbox" name="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Agree to our Terms and conditions</label>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
