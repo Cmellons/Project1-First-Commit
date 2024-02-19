@@ -33,7 +33,9 @@
         font-family: 'Roboto', Times, serif;
         font-size: xx-large;
     }
+
    p {
         font-family: 'Roboto', Times, serif;
-        font-size: large;
+        font-size: x-large;
+        color: saddlebrown;
     } 
